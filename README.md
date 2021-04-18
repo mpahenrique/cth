@@ -1,5 +1,7 @@
-First of all reading: We need you to make this project a real thing! We are looking for intusiasts, no matter what are your expertise, for contribution. Any idea is welcome. Any critics or questioning is welcome twice.
+![cth 0.1.0](https://img.shields.io/badge/cth-0.1.0-green)
+![status: work in progress](https://img.shields.io/badge/status-work%20in%20progress-blue)
 
+First of all reading: We need you to make this project a real thing! We are looking for intusiasts, no matter what are your expertise, for contribution. Any idea is welcome. Any critics or questioning is welcome twice.
 # $CTH (Crypto True Heroes)
 Crypto True Heros is an ERC-20 token, an Ethereum based smart contract, limited to $CTH xxx, xxx, xxx (values under study) focused 100% on safe and guaranteed donations. The main idea of the project is open the opportunities of donate using the mechanism of the free internet on blockchain.
 
