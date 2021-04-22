@@ -1,4 +1,5 @@
 import './App.css';
+import logo from './logo.svg';
 // import readme from '../../../readme.md';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
       <div>
         <header className="cthWeb-Header">
           <div className="cthWeb-Container">
+            <img className="cthWeb-Header-symbol" src={logo} alt={'Crypto True Heroes Symbol'}/> 
             <p className="cthWeb-Header-title">🚀 Crypto True Heroes</p>
             <p className="cthWeb-Header-subtitle">Real Heroes don't wear capes. Let's build a new way to make the world better!</p>
           </div>
