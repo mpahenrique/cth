@@ -1,38 +1,144 @@
-.App {
-  text-align: center;
+:root {
+  --spacingInlineSm: 16px;
+  --spacingStackLg: 24px;
+  --spacingStackMd: 16px;
+  --spacingStackSm: 8px;
+  --spacingStackXs: 4px;
+  --spacingInsetLg: 24px;
+  --fontSizeLg: 32px;
+  --fontSizeMd: 24px;
+  --fontSizeSm: 16px;
+  --fontLineHeightSm: 20px;
+  --colorPrimaryDark: rgb(23, 14, 42);
+  --colorPrimaryMedium: rgb(28, 18, 52);
+  --colorPrimaryLight: rgb(119, 107, 145);
+  --colorInverse: #fff;
+  --opacityLg: 0.8;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.cthWeb-Container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  padding-left: var(--spacingInlineSm);
+  padding-right: var(--spacingInlineSm);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cthWeb-Divider {
+  border-top: 1px dashed var(--colorPrimaryLight);
+  margin: var(--spacingStackLg) 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body, #root, .App, header, main, footer {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+html, body, #root, .App {
+  height: 100%;
+}
+
+body {
+  background-color: var(--colorPrimaryMedium);
+}
+
+.App {
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+header {
+  min-height: 250px;
+  background-color: var(--colorPrimaryDark);
+  text-align: left;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: var(--spacingStackLg) 0;
 }
 
-.App-link {
-  color: #61dafb;
+header p {
+  font-weight: bold;
+  color: var(--colorInverse);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+header p.cthWeb-Header-title {
+  font-size: 5em;
+  line-height: 1.5em;
+  text-transform: uppercase;  
+}
+
+@media screen and (max-width: 990px) {
+  header p.cthWeb-Header-title {
+    font-size: 4em;  
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media screen and (max-width: 768px) {
+  header p.cthWeb-Header-title {
+    font-size: 3em;  
   }
+}
+
+@media screen and (max-width: 600px) {
+  header p.cthWeb-Header-title {
+    font-size: 2em;  
+  }
+}
+
+@media screen and (max-width: 400px) {
+  header p.cthWeb-Header-title {
+    font-size: 1.5em;  
+  }
+}
+
+header p.cthWeb-Header-subtitle {
+  font-size: 1em;
+}
+
+main {
+  color: var(--colorInverse);
+  padding-top: var(--spacingStackLg);
+  padding-bottom: var(--spacingStackLg);
+}
+
+footer {
+  width: 100%;
+  background-color: var(--colorPrimaryDark);
+  align-self: flex-end;
+  padding: var(--spacingStackLg) 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  margin-top: var(--spacingStackLg);
+  margin-bottom: var(--spacingStackSm);
+  color: var(--colorInverse);
+}
+
+h1 {
+  font-size: var(--fontSizeLg);
+}
+
+h2 {
+  font-size: var(--fontSizeMd);
+}
+
+a:hover {
+  opacity: var(--opacityLg);
+}
+
+p {
+  font-size: var(--fontSizeSm);
+  line-height: var(--fontLineHeightSm);
+}
+
+footer h4 {
+  margin-top: 0;
+}
+
+footer a {
+  color: var(--colorPrimaryLight);
+}
+
+footer li {
+  margin-bottom: var(--spacingStackXs);
 }
