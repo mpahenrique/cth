@@ -1,4 +1,4 @@
-![cth 0.1.0](https://img.shields.io/badge/cth-0.1.0-green)
+![cth 0.2.0](https://img.shields.io/badge/cth-0.2.0-green)
 ![status: work in progress](https://img.shields.io/badge/status-work%20in%20progress-blue)
 
 First of all reading: We need you to make this project a real thing! We are looking for intusiasts, no matter what are your expertise, for contribution. Any idea is welcome. Any critics or questioning is welcome twice.
